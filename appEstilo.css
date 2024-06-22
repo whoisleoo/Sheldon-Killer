@@ -1,0 +1,143 @@
+html {
+  cursor: url(imagens/gun6.png) 30 30, auto;
+}
+
+body {
+  background-image: url(imagens/bazingabg.jpg);
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+.bg {
+  background-image: url(imagens/bgmain.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.winbg {
+  background-image: url(imagens/vitoria.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.mortebg {
+  background-image: url(imagens/morte.jpeg);
+}
+
+.enemy1 {
+  width: 200px;
+  height: 200px;
+}
+
+.enemy2 {
+  width: 220px;
+  height: 220px;
+}
+
+.enemy3 {
+  width: 240px;
+  height: 240px;
+}
+
+.sideA {
+  transform: scaleX(1);
+}
+
+.sideB {
+  transform: scaleX(-1);
+}
+
+.painel {
+  position: absolute;
+  width: 220px;
+  padding: 10px;
+  bottom: 0px;
+  border-top: solid 3px #000;
+  background-color: #131313;
+  border-top-right-radius: 20px;
+  opacity: 0.7;
+  left: 0px;
+}
+
+.time-left {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.back {
+  height: 300px;
+  width: 450px;
+  background-color: #000000b3;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.btn-dark {
+  background-color: #a01515;
+  margin-top: 50px;
+}
+
+.btn-dark:hover {
+  background-color: #6a1010;
+  transform: translateY(-5px);
+  transition: all 0.5s ease;
+}
+
+h3 {
+  margin-top: 10px;
+  color: white;
+}
+
+.btn-success {
+  background-color: #1892e9;
+  color: white;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #196aa4;
+  border: none;
+}
+
+.leo {
+  margin-top: 100px;
+  font-size: 1.1em;
+  color: white;
+  font-weight: 300;
+}
+
+.leo:hover {
+  transform: scale(125%);
+  transition: all 0.5s ease;
+  cursor: none;
+}
+
+.fa-heart {
+  --fa-animation-duration: 2s;
+  color: #009dff;
+}
+
+.normal {
+  color: #17a32c;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.dificil {
+  color: #e3b324;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.impossivel {
+  color: #ff0000;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.select {
+  font-weight: 500;
+  font-size: 1.5em;
+}

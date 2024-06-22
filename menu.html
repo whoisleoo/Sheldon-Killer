@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="appEstilo.css" />
+    <script src="jogo.js"></script>
+    <title>Sheldon Killer</title>
+    </head>
+    <body class="bg">
+
+      <div class="container back">
+          <div class="col-md-12 d-flex justify-content-center">
+            <h1 class="text-light">Sheldon Killer</h1>
+          </div>
+          <div class="col-md-12 d-flex justify-content-center">
+            <select class="form-control w-75 text-center text-dark" id="level">
+              <option  class="select" value="">-- Selecione a Dificuldade --</option>
+              <option class="normal" value="normal">Normal</option>
+              <option class="dificil" value="dificil">Díficil</option>
+              <option class="impossivel" value="impossivel">Impossível</option>
+            </select>
+          </div>
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <button onclick="startGame()" class="btn btn-success btn-lg mt-4">
+              Iniciar Jogo
+            </button>
+          </div>
+          <div class="col-md-12 d-flex justify-content-center">
+            <p onclick="secret()" class="leo mt-4">by leo <i class="fa-solid fa-heart fa-beat fa-2xs"></i></p>
+          </div>
+        </div>
+      </div>
+
+    </body>
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1f010cba89.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
